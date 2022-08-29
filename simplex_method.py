@@ -30,8 +30,6 @@ class SimplexMethod:
 		print("Solution is optimal.")
 		print(f"Z = {simplexTable.obj_func_value()}")
 		print(f"Optimal plan: {simplexTable.optimal_plan()}")
-		# print(f"Z = {self.obj_func_value}")
-		# print(f"Optimal plan: {self.optimal_plan}")
 
 
 	@property
